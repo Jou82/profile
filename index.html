@@ -3,41 +3,106 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  <title>Joana Profile</title>
+  <meta name="description" content="Joana Dias — AI & Automation Developer at MEIrelles. Arts, archives, and intelligent workflows for Brazilian microentrepreneurs.">
+  <title>Joana Dias</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="card-white">  <!-- Faltava o > aqui -->
-      <h1>Hello, I'm Joana</h1>
-      <main>
-        <img src="images/joanas_photo.jpg" alt="Joana's Photo" class="img-circle">
-        <p id="introduction">I am learning AI Software Development at Le Wagon Brazil at the moment, where I plan to combine my knowledge in Arts and Technology, more specific at the field of archiving and cataloguing art collections.</p>
-        <a href="https://www.lewagon.com/pt-BR">Discover Le Wagon</a>
-      </main>  <!-- Fechamento da tag main -->
-    </div>  <!-- Fechamento da div card-white -->
-
-    <div class="card-white social-links">
-      <h2>Follow me</h2>
-      <ul class="list-inline">
-        <li>
-          <a href="https://github.com/Jou82" target="_blank">
-            <i class="fab fa-github-square"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/spaces_places_landscapes_/" target="_blank">
-            <i class="fa-brands fa-square-instagram"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/joana-dias-57134425/" target="_blank">
-            <i class="fab fa-linkedin"></i>
-          </a>
-        </li>
-      </ul>
+  <header class="hero">
+    <div class="hero__media" aria-hidden="true">
+      <img src="images/joana.jpg" alt="" class="hero__photo">
+      <div class="hero__veil"></div>
     </div>
-  </div>  <!-- Fechamento da div container -->
+
+    <div class="hero__content">
+      <p class="brand">Joana Dias</p>
+      <h1>Building AI that works where people already are.</h1>
+      <p class="lede">
+        Junior AI &amp; Automation Developer at MEIrelles — the WhatsApp assistant helping Brazilian MEIs run their businesses without another app.
+      </p>
+      <div class="cta-group">
+        <a class="cta cta--primary" href="https://www.meirellesfuncionaria.com.br/" target="_blank" rel="noopener noreferrer">Visit MEIrelles</a>
+        <a class="cta cta--ghost" href="https://www.linkedin.com/in/joana-dias-57134425/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section section--work" id="work">
+      <div class="section__inner">
+        <p class="eyebrow">Now</p>
+        <h2>MEIrelles development</h2>
+        <p class="support">
+          I design and ship N8N workflows that connect WhatsApp, OpenAI, Python services, and PostgreSQL — so microentrepreneurs get consulting, cashflow clarity, and reminders in the channel they already use every day.
+        </p>
+        <ul class="stack" aria-label="Tech stack">
+          <li>N8N</li>
+          <li>Python</li>
+          <li>OpenAI API</li>
+          <li>WhatsApp Business API</li>
+          <li>PostgreSQL</li>
+          <li>Webhooks</li>
+          <li>Prompt engineering</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section--path" id="path">
+      <div class="section__inner section__inner--split">
+        <div>
+          <p class="eyebrow">Path</p>
+          <h2>From archives to automation</h2>
+          <p class="support">
+            For five years I managed private art collections in Berlin — cataloguing, preserving, and researching cultural holdings. At Le Wagon Brazil I turned that systems thinking toward AI software, and now I apply it at MEIrelles.
+          </p>
+        </div>
+        <aside class="path-note">
+          <p>Arts taught me structure. Code lets me scale care.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section--projects" id="projects">
+      <div class="section__inner">
+        <p class="eyebrow">Selected work</p>
+        <h2>Projects in the wild</h2>
+        <div class="project-list">
+          <a class="project" href="https://www.meirellesfuncionaria.com.br/" target="_blank" rel="noopener noreferrer">
+            <span class="project__name">MEIrelles</span>
+            <span class="project__desc">AI assistant for Brazilian microentrepreneurs on WhatsApp — automation, reporting, and business guidance.</span>
+          </a>
+          <a class="project" href="https://www.escolheai.net" target="_blank" rel="noopener noreferrer">
+            <span class="project__name">Escolhe Aí</span>
+            <span class="project__desc">AI movie recommendations for Brazil’s streaming market — OpenAI, Rails, and production infra on Hetzner.</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--connect" id="connect">
+      <div class="section__inner">
+        <p class="eyebrow">Connect</p>
+        <h2>Say hello</h2>
+        <p class="support">Berlin · São Paulo · Rio — always curious about AI for social impact, archives, and thoughtful product craft.</p>
+        <nav class="social" aria-label="Social links">
+          <a href="https://github.com/Jou82" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/joana-dias-57134425/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://www.instagram.com/spaces_places_landscapes_/" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://www.lewagon.com/pt-BR" target="_blank" rel="noopener noreferrer">Le Wagon</a>
+        </nav>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Joana Dias</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
