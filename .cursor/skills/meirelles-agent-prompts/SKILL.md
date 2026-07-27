@@ -25,6 +25,7 @@ Esta skill captura os padrões e convenções que já funcionam nos prompts do M
 - `references/agente-13-duvidas-mei.md` — Q&A educativo + encaminhamento responsável
 - `references/agente-14-cardapio.md` — Ativação multi-perfil + cruzamento automático de preços
 - `references/agente-15-precificacao.md` — Estratégia com dados + fórmulas
+- `references/DIFF_v3.2.1_CORRECAO_FLUXO.md` — Exemplo de diff de correção de fluxo para o Hebert (use como molde ao versionar)
 
 ## Estrutura padrão de um prompt de agente
 
