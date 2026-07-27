@@ -228,6 +228,11 @@ trabalhei hoje, prestei hoje,
 "fiz um bico", "trabalhei pra alguém",
 "caiu um dinheiro", "recebi de cliente",
 "me pagaram", "me transferiram",
+"fiz uma diária", "peguei um serviço",
+"fiz um freela", "trampei hoje",
+"me chamaram pra trabalhar", "fechei uma diária",
+"recebi pelo trampo", "ganhei no corre",
+"fiz uma corrida", "atendi por fora",
 sessão realizada, consulta feita,
 atendimento hoje, paciente pagou,
 honorários recebidos, consultei hoje
@@ -339,18 +344,19 @@ atacado, planejar compra, renovar estoque
 
 → Rotear para Agente 11 — Lista
 
-### COLLAB E PARCERIAS
+### COMUNIDADE E PARCERIAS
 
-indicação, parceria, collab, colaboração,
+indicação, parceria, colaboração, comunidade,
+conexão, conectar com alguém,
 preciso de alguém que, conhece algum,
 tem alguém que faz, quem faz, me indica,
 procurando alguém para, preciso contratar,
 preciso de um, busco parceiro,
 fornecedor, rede, comunidade
 
-→ Rotear para Agente 12 — Collab
+→ Rotear para Agente 12 — Comunidade
 
-### DÚVIDAS SOBRE MEI E FORMALIZAÇÃO
+### DÚVIDAS DE AUTÔNOMO, MEI E PL — MEI E FORMALIZAÇÃO
 
 como abro, quero abrir, abrir CNPJ,
 como viro MEI, como me formalizo,
@@ -371,9 +377,9 @@ exportar MEI, vender pro governo,
 licitação MEI, tenho dúvida, preciso de ajuda,
 não sei como, como funciona, o que acontece
 
-→ Rotear para Agente 13 — Dúvidas MEI
+→ Rotear para Agente 13 — Dúvidas Autônomo, MEI e PL
 
-### DÚVIDAS SOBRE PROFISSIONAL LIBERAL
+### DÚVIDAS DE AUTÔNOMO, MEI E PL — AUTÔNOMO E PROFISSIONAL LIBERAL
 
 carnê-leão, como pago carnê-leão,
 IRPF, declaração anual PF,
@@ -387,7 +393,7 @@ nota de autônomo, como formalizo,
 tenho dúvida sobre imposto,
 preciso de ajuda fiscal
 
-→ Rotear para Agente 13 — Dúvidas MEI
+→ Rotear para Agente 13 — Dúvidas Autônomo, MEI e PL
 
 ### CARDÁPIO E LISTA DE SERVIÇOS
 
