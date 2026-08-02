@@ -3,41 +3,117 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  <title>Joana Profile</title>
+  <title>Joana — Arts × AI</title>
+  <meta name="description" content="Joana Dias — AI for social impact today; archiving and cataloguing tools for collections tomorrow.">
+  <meta property="og:title" content="Joana — Arts × AI">
+  <meta property="og:description" content="Helping Brazilian micro-entrepreneurs, freelancers, and independent professionals — with a path toward collections tooling.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/joanas-photo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="card-white">  <!-- Faltava o > aqui -->
-      <h1>Hello, I'm Joana</h1>
-      <main>
-        <img src="images/joanas_photo.jpg" alt="Joana's Photo" class="img-circle">
-        <p id="introduction">I am learning AI Software Development at Le Wagon Brazil at the moment, where I plan to combine my knowledge in Arts and Technology, more specific at the field of archiving and cataloguing art collections.</p>
-        <a href="https://www.lewagon.com/pt-BR">Discover Le Wagon</a>
-      </main>  <!-- Fechamento da tag main -->
-    </div>  <!-- Fechamento da div card-white -->
+  <a class="skip-link" href="#about">Skip to content</a>
 
-    <div class="card-white social-links">
-      <h2>Follow me</h2>
-      <ul class="list-inline">
-        <li>
-          <a href="https://github.com/Jou82" target="_blank">
-            <i class="fab fa-github-square"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/spaces_places_landscapes_/" target="_blank">
-            <i class="fa-brands fa-square-instagram"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/joana-dias-57134425/" target="_blank">
-            <i class="fab fa-linkedin"></i>
-          </a>
-        </li>
-      </ul>
+  <header class="hero">
+    <div class="hero__copy">
+      <p class="hero__eyebrow fade-rise">Joana Dias</p>
+      <h1 class="hero__title fade-rise delay-1">Joana</h1>
+      <p class="hero__tagline fade-rise delay-2">Arts × AI · Le Wagon · Sotheby’s · MEIrelles</p>
+      <p class="hero__lede fade-rise delay-3">
+        Building MEIrelles AI for social impact now — and, ahead, tools for archiving and cataloguing collections.
+      </p>
+      <div class="hero__ctas fade-rise delay-4">
+        <a class="btn btn--primary" href="#work">Selected work</a>
+        <a class="btn btn--ghost" href="#contact">Contact</a>
+      </div>
     </div>
-  </div>  <!-- Fechamento da div container -->
+    <div class="hero__visual fade-rise delay-2" aria-hidden="false">
+      <div class="hero__frame">
+        <img
+          class="hero__image"
+          src="images/joanas-photo.jpg"
+          alt="Portrait of Joana"
+          width="560"
+          height="560"
+        >
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section about">
+      <div class="section__inner">
+        <p class="section__index">01</p>
+        <h2 class="section__title">About</h2>
+        <div class="about__grid">
+          <p class="about__lead">
+            Right now I work on a product that helps Brazilian micro-entrepreneurs,
+            freelancers, and independent professionals run their work with more clarity and performance.
+          </p>
+          <p class="about__body">
+            I completed the AI Software Development bootcamp at
+            <a href="https://www.lewagon.com/pt-BR" target="_blank" rel="noopener noreferrer">Le Wagon Brazil</a>,
+            and Art Business Essentials at
+            <a href="https://www.sothebysinstitute.com/" target="_blank" rel="noopener noreferrer">Sotheby’s Institute of Art</a>.
+            I’m currently taking their Collections course —
+            deepening the path toward tools for archiving and cataloguing collections,
+            systems that hold memory carefully and make it usable.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section work">
+      <div class="section__inner">
+        <p class="section__index">02</p>
+        <h2 class="section__title">Selected work</h2>
+        <ul class="catalog">
+          <li class="catalog__item">
+            <a class="catalog__link" href="https://www.escolheai.net" target="_blank" rel="noopener noreferrer">
+              <span class="catalog__meta">
+                <span class="catalog__title">Escolhe Aí</span>
+                <span class="catalog__role">AI movie &amp; series recommendations for Brazil</span>
+              </span>
+              <span class="catalog__arrow" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li class="catalog__item catalog__item--split">
+            <div class="catalog__meta">
+              <span class="catalog__title">MEIrelles</span>
+              <span class="catalog__role">Social-impact chatbot for Brazilian micro-entrepreneurs, freelancers &amp; independent professionals</span>
+            </div>
+            <div class="catalog__repos">
+              <a href="https://github.com/Hfreitas/meirelles-dev" target="_blank" rel="noopener noreferrer">meirelles-dev ↗</a>
+              <a href="https://github.com/Hfreitas/data-svc" target="_blank" rel="noopener noreferrer">data-svc ↗</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section__inner">
+        <p class="section__index">03</p>
+        <h2 class="section__title">Contact</h2>
+        <p class="contact__lede">Find me online — or say hello through any of these.</p>
+        <nav class="contact__nav" aria-label="Social links">
+          <a href="https://github.com/Jou82" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/joana-dias-57134425/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://www.instagram.com/spaces_places_landscapes_/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        </nav>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Joana Dias</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
